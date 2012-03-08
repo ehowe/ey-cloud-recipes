@@ -44,7 +44,8 @@
 # require_recipe "resque-scheduler"
 
 #uncomment to run the redis recipe
-#require_recipe "redis"
+require_recipe "redis"
+require_recipe "delayed_job"
 
 #require_recipe "logrotate"
 #
